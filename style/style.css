@@ -62,6 +62,9 @@ font-weight: bold;
 color: white;
 cursor: pointer;
 }
+.text-center{
+    text-align: center;
+}
 
 .section-heading{
     max-width:827px;
@@ -224,4 +227,44 @@ cursor: pointer;
     line-height: 28px;
     margin-bottom: 30px;
 
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+footer .footer-container .social{
+    max-width: 562px;
+}
+footer .footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+footer .footer-container p{
+   
+    font-size: 16px;
+    line: height 28px;;
+    color: #474747;
+    margin-bottom: 30px;
+}
+footer .footer-container .icon a{
+    margin-right: 24px;
+} 
+
+footer .footer-container form input[type = "text"] ,footer .footer-container form input[type = "email"] , footer .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
